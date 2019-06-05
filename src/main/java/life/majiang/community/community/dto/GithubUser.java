@@ -1,16 +1,16 @@
 package life.majiang.community.community.dto;
 
 public class GithubUser {
-    public String name;
+    public String login;
     public  Long id;
     public String bio;
 
-    public String getName() {
-        return name;
+    public String getLogin() {
+        return login;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setLogin(String login) {
+        this.login = login;
     }
 
     public Long getId() {
@@ -32,7 +32,7 @@ public class GithubUser {
     @Override
     public String toString() {
         return "GithubUser{" +
-                "name='" + name + '\'' +
+                "login='" + login + '\'' +
                 ", id=" + id +
                 ", bio='" + bio + '\'' +
                 '}';
